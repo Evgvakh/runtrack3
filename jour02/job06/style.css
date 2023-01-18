@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: none;
+}
+
+.text {    
+    background-color: #336699;
+    padding: 4em;
+}
+
+p {
+    color:white;    
+    font-size: 20px;
+}
+
+input {
+    font-size: 18px;
+    padding: 0.5em;
+    border: 1px solid rgba(160, 149, 149, 0.5);
+    outline: none;
+    color: #336699;
+    border-radius: 3px;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+    color: #336699;
+}
+
+button {
+    background-color: #ff2063;
+    border: 1px solid #ff2063;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 1em;
+    color: white;
+    font-weight: 700;
+    margin: 2em;   
+    cursor: pointer; 
+}
