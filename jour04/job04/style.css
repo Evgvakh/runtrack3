@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.main div {
+    width: 22%;
+    margin: 1em;
+    border: 2px solid rgba(228, 53, 53, 0.842);
+    border-radius: 3px;
+    padding: 1em;
+    background-color: rgba(135, 207, 235, 0.144);
+}
+
+.index {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    margin: 3em;
+    padding: 0.5em;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    color: ghostwhite;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a {
+    display: block;
+    width: 100%; height: 100%;
+    text-decoration: none;
+    color: ghostwhite;
+}
