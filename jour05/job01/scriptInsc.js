@@ -60,7 +60,7 @@ submitBtn.addEventListener('click', (e) => {
         passInput.style.outline = 'none';
     }
 
-    if (nomInput.value.length == 0) {
+    if (nomInput.value.length == 0 || nomInput.value.includes("'")) {
         e.preventDefault();
         nomInput.style.outline = '2px solid red';
         nomerror.textContent = '- Merci de saisir votre nom';
@@ -70,7 +70,7 @@ submitBtn.addEventListener('click', (e) => {
         nomInput.style.outline = 'none';
     }
 
-    if (prenomInput.value.length == 0) {
+    if (prenomInput.value.length == 0 || prenomInput.value.includes("'")) {
         e.preventDefault();
         prenomerror.textContent = '- Merci de saisir votre prenom';
         prenomInput.style.outline = '2px solid red';
